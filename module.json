@@ -1,0 +1,41 @@
+{
+  "title": "Hover Distance",
+  "description": "Show distance to a token on hover without the need to use the ruler",
+  "version": "2.6",
+  "authors": [
+    {
+      "name": "theripper93",
+      "email": "tsplab@gmail.com",
+      "url": "https://www.patreon.com/theripper93"
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json"
+    }
+  ],
+  "scripts": [
+    "scripts/main.js",
+    "scripts/config.js",
+    "scripts/module.js"
+  ],
+  "styles": [
+    "styles/module.css"
+  ],
+  "id": "hover-distance",
+  "relationships": {
+    "requires": [
+      {
+        "id": "lib-wrapper",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  }
+}
